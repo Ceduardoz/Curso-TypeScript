@@ -1,0 +1,13 @@
+{
+  "code-runner.executorMap": {
+    "typescript": "npx ts-node --files $fullFileName"
+  },
+  "code-runner.runInTerminal": true,
+  "code-runner.clearPreviousOutput": false,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.validate": ["typescript"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  }
+}
