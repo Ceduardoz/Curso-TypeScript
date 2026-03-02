@@ -1,6 +1,6 @@
 // tipo ANy
 
-function showmessage(msg: any) {
+export function showmessage(msg: any): any {
   return msg;
 }
 
