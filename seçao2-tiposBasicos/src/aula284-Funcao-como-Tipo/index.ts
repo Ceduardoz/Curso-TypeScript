@@ -1,6 +1,9 @@
 type MapStringCallback = (item: string) => string;
 
-function mapString(array: string[], callbackfn: MapStringCallback): string[] {
+export function mapString(
+  array: string[],
+  callbackfn: MapStringCallback,
+): string[] {
   const newArray: string[] = [];
 
   for (let i = 0; i < array.length; i++) {
