@@ -1,7 +1,7 @@
 type VerifyUserFn = (user: User, sentValue: User) => boolean;
 type User = { username: string; password: string };
 
-const veriftUser: VerifyUserFn = (user, sentValue) => {
+export const veriftUser: VerifyUserFn = (user, sentValue) => {
   return (
     user.username === sentValue.username && user.password === sentValue.password
   );
