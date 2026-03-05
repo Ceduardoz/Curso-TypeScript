@@ -6,7 +6,6 @@
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "sourceMap": true,
-    "outDir": "./frontend/assets/js"
+    "sourceMap": true
   }
 }
