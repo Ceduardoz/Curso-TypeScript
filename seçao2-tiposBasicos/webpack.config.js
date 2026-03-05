@@ -3,7 +3,7 @@ const path = require('path');
 /** @type {import("webpack").Configuration} */
 module.exports = {
   mode: 'development',
-  entry: './src/aula287-Webpack/index.ts',
+  entry: './src/aula288-Validation-Form/index.ts',
   module: {
     rules: [
       {
